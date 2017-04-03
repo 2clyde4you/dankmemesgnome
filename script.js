@@ -69,7 +69,7 @@
         
         var options = null;
         var syncData = function() {
-            $.getJSON('https://raw.githubusercontent.com/2clyde4you/dankmemesgnome/master/gnome.json', function(data) {
+            $.getJSON('https://raw.githubusercontent.com/2clyde4you/dankmemesgnome/master/sync.json', function(data) {
                 options = data;
             });  
         };
