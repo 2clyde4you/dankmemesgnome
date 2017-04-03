@@ -3,7 +3,7 @@
     console.log('Loaded /r/place Cooridination Script');
     $.ajaxSetup({ cache: false });
     var getData = function(action) {
-        $.getJSON('https://cdn.discordapp.com/attachments/298077247393234944/298449961039691776/gnome.json', function(data) {
+        $.getJSON('https://raw.githubusercontent.com/2clyde4you/dankmemesgnome/master/gnome.json', function(data) {
             action(data);
         });
     },
