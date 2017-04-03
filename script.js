@@ -1,3 +1,6 @@
+/**
+ * Created by Evan on 4/2/2017.
+ */
 (function() {
     'use strict';
     console.log('Loaded /r/place Cooridination Script');
