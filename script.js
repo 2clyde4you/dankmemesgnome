@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     
-    var test = false;
+    var test = true;
     
     console.log('Loaded /r/place Cooridination Script');
     
